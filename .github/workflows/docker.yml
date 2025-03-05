@@ -23,7 +23,7 @@ jobs:
       run: docker build -t 1215316010/pavanreddy:tagname .
      
     - name: Push Docker Image
-      run: docker push 1215316010/manupratice:tagname
+      run: docker push 1215316010/pavanreddy:tagname
       
     - name: Log out from Docker Hub  
       run: docker logout
